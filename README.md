@@ -1,16 +1,17 @@
 # Bankin Challenge Engineering 2018 : Web Scrapping
 
-This script is meant to perform a full web scrapping of the webpage : https://web.bankin.com/challenge/index.html for [the Bankin Web Scapping challenge](https://blog.bankin.com/challenge-engineering-web-scrapping-dc5839543117) with [the NodeJS Puppeteer implementation of Chome Headless](https://github.com/GoogleChrome/puppeteer).
+This script is meant to perform a full web scrapping of the webpage : https://web.bankin.com/challenge/index.html for [the Bankin Web Scapping challenge](https://blog.bankin.com/challenge-engineering-web-scrapping-dc5839543117).
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on **Ubuntu 16.04 LTS**.
+These instructions will get you a copy of the project up and running on **Ubuntu 16.04 LTS** with [the NodeJS Puppeteer implementation](https://github.com/GoogleChrome/puppeteer) of **Chome Headless**.
 
 ### Prerequisites
 
 #### 1. Puppeteer dependencies
 
 We first need to install the environment dependencies of our Puppeteer API.
+
 
 ```
 sudo apt-get update
