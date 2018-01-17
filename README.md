@@ -1,1 +1,1 @@
-# bankin-chanllenge-2018
+# Bankin Challenge 2018
