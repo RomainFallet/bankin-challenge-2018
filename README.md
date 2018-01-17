@@ -4,7 +4,7 @@ This script is meant to perform a full web scrapping of the webpage : https://we
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on **Ubuntu 16.04 LTS** with [the NodeJS Puppeteer implementation](https://github.com/GoogleChrome/puppeteer) of **Chome Headless**.
+These instructions will get you a copy of the project up and running on **Ubuntu 16.04 LTS** with [the NodeJS implementation called "Puppeteer"](https://github.com/GoogleChrome/puppeteer) of **Chome Headless**.
 
 ### Prerequisites
 
