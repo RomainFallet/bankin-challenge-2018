@@ -40,9 +40,13 @@ Simply clone this repository.
 ```
 git clone https://github.com/RomainFallet/bankin-challenge-2018
 ```
+And run this from inside the directory :
+```
+npm install
+```
 ### Usage
 
-Simply run the script with node :
+Run the script with node :
 
 ```
 node ./script.js
