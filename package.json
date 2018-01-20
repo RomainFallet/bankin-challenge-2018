@@ -1,0 +1,22 @@
+{
+    "name": "bankin-2018-challenge",
+    "version": "1.0.0",
+    "description": "This script is meant to perform a full web scrapping of the webpage : https://web.bankin.com/challenge/index.html for the Bankin Web Scapping challenge.",
+    "main": "script.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RomainFallet/bankin-challenge-2018.git"
+    },
+    "author": "Romain Fallet <rfallet@numee.fr>",
+    "license": "SEE LICENSE IN LICENSE",
+    "bugs": {
+        "url": "https://github.com/RomainFallet/bankin-challenge-2018/issues"
+    },
+    "homepage": "https://github.com/RomainFallet/bankin-challenge-2018#readme",
+    "dependencies": {
+        "puppeteer": "0.13.0"
+    }
+}
