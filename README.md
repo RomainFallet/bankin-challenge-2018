@@ -2,6 +2,8 @@
 
 This script is meant to perform a full web scrapping of the webpage : https://web.bankin.com/challenge/index.html for [the Bankin Web Scapping challenge](https://blog.bankin.com/challenge-engineering-web-scrapping-dc5839543117).
 
+![ezgif com-optimize](https://user-images.githubusercontent.com/6952638/35188072-75dcacf8-fe2f-11e7-828c-4b75fccf5904.gif)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on **Ubuntu 16.04 LTS** with [the NodeJS implementation called "Puppeteer"](https://github.com/GoogleChrome/puppeteer) of **Chome Headless**. It may works on other linux distributions.
