@@ -4,7 +4,7 @@ This script is meant to perform a full web scrapping of the webpage : https://we
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on **Ubuntu 16.04 LTS** with [the NodeJS implementation called "Puppeteer"](https://github.com/GoogleChrome/puppeteer) of **Chome Headless**.
+These instructions will get you a copy of the project up and running on **Ubuntu 16.04 LTS** with [the NodeJS implementation called "Puppeteer"](https://github.com/GoogleChrome/puppeteer) of **Chome Headless**. It may works on other linux distributions.
 
 ### Prerequisites
 
@@ -12,12 +12,11 @@ These instructions will get you a copy of the project up and running on **Ubuntu
 
 We first need to install the environment dependencies of our Puppeteer API.
 
-
 ```
 sudo apt-get update
 ```
 ```
-sudo apt-get install curl gconf-service libasound2 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgcc1 libgconf-2-4 libgdk-pixbuf2.0-0 libglib2.0-0 libgtk-3-0 libnspr4 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 ca-certificates fonts-liberation libappindicator1 libnss3 lsb-release xdg-utils wget
+sudo apt-get install git curl gconf-service libasound2 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgcc1 libgconf-2-4 libgdk-pixbuf2.0-0 libglib2.0-0 libgtk-3-0 libnspr4 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 ca-certificates fonts-liberation libappindicator1 libnss3 lsb-release xdg-utils wget
 ```
 #### 2. NodeJS v7
 
@@ -26,7 +25,6 @@ We will then install NodeJS v7. First, we add it to our registry because the def
 ```
 curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
 ```
-
 Then we install NodeJS v7.
 
 ```
@@ -35,59 +33,27 @@ sudo apt-get install nodejs
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
+Simply clone this repository.
 
 ```
-Give the example
+git clone https://github.com/RomainFallet/bankin-challenge-2018
 ```
+### Usage
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+Simply run the script with node :
 
 ```
-Give an example
+node ./script.js
 ```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+You'll find a file "datas.json" alongside the script with the result.
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+* [Puppeteer](https://github.com/GoogleChrome/puppeteer) - The NodeJS implementation of Chrome Headless
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/RomainFallet/bankin-challenge-2018/tags). 
 
 ## Authors
 
@@ -96,9 +62,3 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 ## License
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
